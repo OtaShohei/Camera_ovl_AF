@@ -25,9 +25,6 @@ public class CameraOvlView extends View {
 	}
 
 
-	/**
-	 *
-	 */
 	@Override
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
@@ -60,7 +57,6 @@ public class CameraOvlView extends View {
 		paint.setARGB(125, 100, 100, 255);
 		RectF rect=new RectF(width-80, 0, width-5, 30);
 		canvas.drawRoundRect(rect, 10, 10, paint);
-
 	}
 }
 

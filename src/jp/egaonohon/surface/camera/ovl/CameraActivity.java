@@ -21,12 +21,10 @@ public class CameraActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-//        cameraView.onResume();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-//        cameraView.onPause();
     }
 }
